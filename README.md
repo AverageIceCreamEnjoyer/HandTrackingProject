@@ -17,15 +17,16 @@ A Python-based real-time **hand gesture recognition** project using **OpenCV**, 
 
 ## Project Structure
 
+```text
 HANDTRACKINGPROJECT/
 │
-├─ dataset_json/ # Folder for saving hand landmarks per gesture
-├─ utils.py # Feature extraction utilities + script for collecting landmark data
-├─ model.py # Neural network class for training and prediction
-├─ main.py # Script for live gesture recognition
-├─ .gitignore
-└─ README.md
-
+├── dataset_json/      # Folder for saving hand landmarks per gesture
+├── utils.py           # Feature extraction utilities + script for collecting landmark data
+├── model.py           # Neural network class for training and prediction
+├── main.py            # Script for live gesture recognition
+├── .gitignore
+└── README.md
+```
 ---
 
 ## Collect Gesture Data
